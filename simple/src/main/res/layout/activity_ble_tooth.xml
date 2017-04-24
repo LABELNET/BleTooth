@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_ble_tooth"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="cn.labelnet.bluetoothdemo.BleToothActivity">
+
+
+    <TextView
+        android:id="@+id/tv_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="测试BleTooth兼容库"/>
+
+    <Button
+        android:text="SCAN_START"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_ble_scan_start" />
+
+    <Button
+        android:text="SCAN_STOP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_ble_scan_stop" />
+
+    <Button
+        android:text="CONN_START"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_ble_conn_start" />
+
+    <Button
+        android:text="CONN_STOP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_ble_conn_stop" />
+
+    <Button
+        android:text="SCAN_AND_CONN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_ble_scan_conn" />
+
+    <Button
+        android:id="@+id/btn_ble_write_chara"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="WRITE_CHARACTERISTIC" />
+
+    <Button
+        android:id="@+id/btn_ble_chara_enable_notify"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TEST_NOTIFICATION" />
+
+    <Button
+        android:id="@+id/btn_ble_read_rssi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Read RSSI" />
+
+    <Button
+        android:id="@+id/btn_ble_read_chara"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Read_CHARACTERISTIC" />
+
+</LinearLayout>
